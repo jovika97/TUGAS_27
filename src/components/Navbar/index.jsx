@@ -1,6 +1,6 @@
-// src/components/Navbar/index.jsx
+
 import React from 'react';
-import './Navbar.css'; // Import file CSS untuk styling
+import './Navbar.css'; 
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="logo-text-container">
           <img
-            src="/public/logo kp.jpg" // Ganti dengan path gambar yang benar
+            src="/public/logo kp.jpg" 
             alt="Logo"
             className="navbar-logo"
           />

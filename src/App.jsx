@@ -9,7 +9,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <main>
-        <h1>Produk Olahan Khas Kabupaten Seruyan</h1>
+        <h1>Produk Olahan Khas Kuala Pembuang</h1>
         <Content />
       </main>
       <Footer />
