@@ -1,0 +1,55 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara logo dan teks */
+  }
+  
+  .navbar-logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 24px; /* Ukuran teks */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    display: inline-block;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  

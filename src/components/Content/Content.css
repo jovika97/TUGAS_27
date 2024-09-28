@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.food-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 200px; /* Ukuran tetap untuk elemen */
+}
+
+.food-item:hover {
+  transform: scale(1.05);
+}
+
+.food-image {
+  width: 100%;
+  height: 150px; /* Atur tinggi tetap */
+  object-fit: cover; /* Agar gambar tetap proporsional */
+  border-radius: 8px;
+}
+
+.food-name {
+  font-size: 18px;
+  margin: 12px 0;
+  color: #333;
+}
+
+.food-description {
+  font-size: 14px;
+  color: #777;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
