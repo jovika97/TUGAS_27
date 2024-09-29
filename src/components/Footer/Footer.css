@@ -19,6 +19,8 @@
 .footer-logo {
   width: 100px;
   margin-bottom: 10px;
+  border-radius: 10%; 
+  object-fit: cover; 
 }
 
 .footer-info {
@@ -48,9 +50,13 @@
 
 .social-logo {
   width: 30px;
+  height: 30px;
   transition: transform 0.2s;
+  /* Optional: Add border-radius if you want round logos */
+  border-radius: 50%;
 }
 
 .social-logo:hover {
   transform: scale(1.1);
+  filter: brightness(1.2); /* Optional: make logo a bit brighter on hover */
 }
